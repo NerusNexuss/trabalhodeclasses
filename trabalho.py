@@ -4,7 +4,7 @@ class Pessoa:
         self.cpf = cpf
         self.rg = rg
         self.dataNascimento = dataNascimento
-        print ("teste")
+      
 
 class Cadastrar(Pessoa):
     def cadastrarCliente(self, nome, cpf, rg, dataNascimento, tipoCliente):
