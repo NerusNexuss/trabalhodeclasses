@@ -71,9 +71,10 @@ class Vendedor(Pessoa):
         return vendedor 
     
 if __name__ == '__main__':  
-   cliente = Cliente
+
    print("----= Bem Vindo a Loja de jogos =----") 
-   print("selecione seu tipo de usuário")
+   print("selecione seu tipo de usuário") 
+   
    tipoUser = int(input("(1)Cliente (2)Vendedor (3)Gerente: "))  
 
    if tipoUser not in [1, 2, 3]:
@@ -141,7 +142,7 @@ if __name__ == '__main__':
 
          if MenuGerente == 3:
              gerente.consultarVendedor()    
-
+         
 
 
        
